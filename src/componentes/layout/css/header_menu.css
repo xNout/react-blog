@@ -1,0 +1,87 @@
+.header_menu {
+  padding: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 60px;
+  box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.header_menu .logo_hi img {
+  width: 130px; }
+.header_menu .menu_urls {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  border-right: 1px solid rgba(255, 255, 255, 0.9); }
+  .header_menu .menu_urls li {
+    display: inline-block;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer; }
+    .header_menu .menu_urls li a {
+      color: white; }
+.header_menu .find_article {
+  margin-left: 20px;
+  padding-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 7px;
+  border-radius: 100px; }
+  .header_menu .find_article .input_find {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .header_menu .find_article .input_find .search_text {
+      background: none;
+      border: none;
+      width: 90%;
+      color: rgba(204, 204, 204, 0.5);
+      font-size: 12px;
+      font-family: "Poppins", sans-serif; }
+    .header_menu .find_article .input_find i {
+      color: rgba(204, 204, 204, 0.2); }
+.header_menu .users_options {
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end; }
+  .header_menu .users_options i {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 100%; }
+    .header_menu .users_options i:hover {
+      background: rgba(0, 0, 0, 0.1); }
+.header_menu .menu_user {
+  position: absolute;
+  right: 0;
+  top: 53px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.9);
+  list-style: none;
+  padding-left: 0;
+  width: 190px; }
+  .header_menu .menu_user li {
+    padding: 2px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9); }
+    .header_menu .menu_user li:hover {
+      background: rgba(0, 0, 0, 0.1); }
+    .header_menu .menu_user li i {
+      padding: 10px; }
+    .header_menu .menu_user li a {
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none; }
+
+.main_page {
+  height: 100%;
+  background: white; }
+
+/*# sourceMappingURL=layout.css.map */

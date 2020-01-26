@@ -1,0 +1,105 @@
+.header_identificar {
+  padding: 0;
+  background: white;
+  box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .header_identificar .logo_hi {
+    display: flex;
+    align-items: center; }
+    .header_identificar .logo_hi img {
+      width: 130px; }
+  .header_identificar .links {
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0; }
+    .header_identificar .links li {
+      font-family: "Poppins", sans-serif;
+      color: rgba(0, 0, 0, 0.8);
+      padding: 25px;
+      display: inline-block;
+      cursor: pointer; }
+      .header_identificar .links li:hover {
+        text-decoration: underline; }
+
+.formulario_registro {
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif; }
+  .formulario_registro .head {
+    text-align: center; }
+    .formulario_registro .head hr {
+      margin: 0; }
+  .formulario_registro .bodyform {
+    padding-left: 20px;
+    padding-top: 20px; }
+    .formulario_registro .bodyform .gerrormsg {
+      margin: 10px;
+      color: #BF2626; }
+      .formulario_registro .bodyform .gerrormsg i {
+        margin-right: 5px; }
+    .formulario_registro .bodyform .finput {
+      display: flex;
+      align-items: flex-end;
+      font-family: "Poppins", sans-serif;
+      border: none;
+      padding: 10px;
+      width: 100%; }
+      .formulario_registro .bodyform .finput small {
+        padding: 0; }
+      .formulario_registro .bodyform .finput .row {
+        width: 100%; }
+      .formulario_registro .bodyform .finput input:-webkit-autofill {
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 0 0px 9999px none;
+        background-color: #fff !important; }
+      .formulario_registro .bodyform .finput input:focus,
+      .formulario_registro .bodyform .finput input:-webkit-autofill:focus {
+        border-color: #66afe9;
+        background-color: #fff !important;
+        -webkit-box-shadow: inset 0 0 0px 9999px none, 0 0 8px rgba(102, 175, 233, 0.6); }
+    .formulario_registro .bodyform .input_valid, .formulario_registro .bodyform .input_empty {
+      color: rgba(0, 0, 0, 0.7); }
+    .formulario_registro .bodyform .input_valid {
+      border-bottom: 2px solid #0777D9; }
+    .formulario_registro .bodyform .input_empty {
+      border-bottom: 2px solid #ccc; }
+    .formulario_registro .bodyform .input_invalid {
+      border-bottom: 2px solid #BF2626;
+      color: #BF2626; }
+      .formulario_registro .bodyform .input_invalid input {
+        color: #BF2626; }
+    .formulario_registro .bodyform .submit_btn {
+      margin-top: 10px;
+      background: #0777D9;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      color: rgba(255, 255, 255, 0.9);
+      width: 180px; }
+      .formulario_registro .bodyform .submit_btn:hover {
+        background: #0669BF; }
+
+.success_registry {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  background: white; }
+  .success_registry .head_border {
+    padding: 15px;
+    background: #082B59; }
+  .success_registry .body_sr {
+    padding: 20px;
+    font-family: "Poppins", sans-serif; }
+
+.t_link {
+  text-decoration: underline;
+  color: #0777D9;
+  cursor: pointer; }
+
+/*# sourceMappingURL=registro.css.map */

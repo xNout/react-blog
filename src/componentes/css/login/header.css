@@ -1,0 +1,29 @@
+.header_identificar {
+  padding: 0;
+  background: white;
+  box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .header_identificar .logo_hi {
+    display: flex;
+    align-items: center; }
+    .header_identificar .logo_hi img {
+      width: 130px; }
+  .header_identificar .links {
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0; }
+    .header_identificar .links li {
+      font-family: "Poppins", sans-serif;
+      color: rgba(0, 0, 0, 0.8);
+      padding: 25px;
+      display: inline-block;
+      cursor: pointer; }
+      .header_identificar .links li:hover {
+        text-decoration: underline; }
+
+/*# sourceMappingURL=header.css.map */

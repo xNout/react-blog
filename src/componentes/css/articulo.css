@@ -1,0 +1,37 @@
+.article {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.8); }
+  .article .article_headerinf h1 {
+    font-size: 36px; }
+  .article .article_headerinf .madeby_article small {
+    margin-right: 10px; }
+  .article .article_headerinf .madeby_article i {
+    padding: 5px; }
+  .article .article_headerinf .madeby_article .bordemby {
+    max-width: 500px; }
+    .article .article_headerinf .madeby_article .bordemby hr {
+      margin-top: 5px; }
+
+.article {
+  margin-top: 60px;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc; }
+
+.container-fluid {
+  height: auto;
+  background: white; }
+
+.background {
+  margin-top: 20px; }
+
+.body_article {
+  margin-bottom: 10px; }
+  .body_article .content {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Merriweather", serif; }
+    .body_article .content p {
+      margin-top: 10px; }
+
+/*# sourceMappingURL=articulo.css.map */

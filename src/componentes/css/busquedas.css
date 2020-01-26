@@ -1,0 +1,13 @@
+.busquedas {
+  padding: 20px;
+  margin-top: 40px; }
+  .busquedas hr {
+    margin: 0; }
+  .busquedas .listado_resultados {
+    margin-top: 20px; }
+    .busquedas .listado_resultados .resultado_busq {
+      margin-top: 20px; }
+      .busquedas .listado_resultados .resultado_busq .header_rbus a {
+        font-size: 22px; }
+
+/*# sourceMappingURL=busquedas.css.map */

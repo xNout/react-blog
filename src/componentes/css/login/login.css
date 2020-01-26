@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+}
+
+.login_panel {
+  padding: 20px;
+  background: white;
+  box-shadow: 0.5px 0.5px 5px #000;
+  border-radius: 3px; }
+  .login_panel .header_lpanel {
+    font-family: "Poppins", sans-serif;
+    text-align: center; }
+    .login_panel .header_lpanel h2 {
+      margin-bottom: 0; }
+  .login_panel .body_lpanel {
+    margin-top: 30px; }
+    .login_panel .body_lpanel .finput {
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 5px;
+      color: rgba(0, 0, 0, 0.8); }
+      .login_panel .body_lpanel .finput i {
+        padding: 5px;
+        padding-right: 10px;
+        border-right: 1px solid #ccc; }
+      .login_panel .body_lpanel .finput input {
+        margin-left: 10px;
+        border: none;
+        font-family: "Montserrat", sans-serif; }
+    .login_panel .body_lpanel .error_msg {
+      font-size: 14px;
+      text-align: center;
+      color: #D90000;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 10px; }
+    .login_panel .body_lpanel .submit_btn {
+      border: none;
+      background: #029ae5;
+      width: 100%;
+      margin-top: 15px;
+      height: 40px;
+      color: white;
+      border-radius: 2px;
+      box-shadow: 1px 1px 5px #ccc;
+      font-family: "Poppins", sans-serif; }
+      .login_panel .body_lpanel .submit_btn:hover {
+        border: none;
+        background: #0289CC; }
+
+/*# sourceMappingURL=login.css.map */
